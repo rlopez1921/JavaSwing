@@ -108,9 +108,9 @@ public class VentanaPrincipal {
 		jcb_java.setBounds(172, 69, 61, 23);
 		frame.getContentPane().add(jcb_java);
 		
-		JCheckBox jcb_ruby = new JCheckBox("Ruby");
-		jcb_ruby.setBounds(235, 69, 61, 23);
-		frame.getContentPane().add(jcb_ruby);
+		JCheckBox jcb_js = new JCheckBox("Java Script");
+		jcb_js.setBounds(235, 69, 120, 23);
+		frame.getContentPane().add(jcb_js);
 		
 		JComboBox jcomb_pais = new JComboBox();
 		jcomb_pais.setModel(new DefaultComboBoxModel(new String[] {"M\u00E9xico", "Colombia", "Brasil", "Per\u00FA", "Chile", "Argentina", "Bolivia", "Paraguay"}));
@@ -146,7 +146,7 @@ public class VentanaPrincipal {
 				
 				lenguajesSeleccionados+=(jcb_cSharp.isSelected() ? jcb_cSharp.getText() : "");
 				lenguajesSeleccionados+=(jcb_java.isSelected() ? " "+jcb_java.getText() : "");
-				lenguajesSeleccionados+=(jcb_ruby.isSelected() ? " "+jcb_ruby.getText() : "");
+				lenguajesSeleccionados+=(jcb_js.isSelected() ? " "+jcb_js.getText() : "");
 				
 				jtf_lenguajesResp.setText(lenguajesSeleccionados);
 				
