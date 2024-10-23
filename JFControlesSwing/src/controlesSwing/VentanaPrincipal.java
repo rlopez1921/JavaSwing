@@ -113,7 +113,7 @@ public class VentanaPrincipal {
 		frame.getContentPane().add(jcb_js);
 		
 		JComboBox jcomb_pais = new JComboBox();
-		jcomb_pais.setModel(new DefaultComboBoxModel(new String[] {"M\u00E9xico", "Colombia", "Brasil", "Per\u00FA", "Chile", "Argentina", "Bolivia", "Paraguay"}));
+		jcomb_pais.setModel(new DefaultComboBoxModel(new String[] {"M\u00E9xico", "Colombia", "Brasil", "Per\u00FA", "Chile", "Argentina", "Bolivia", "Paraguay", "Estados Unidos"}));
 		jcomb_pais.setBounds(113, 111, 311, 20);
 		frame.getContentPane().add(jcomb_pais);
 		
